@@ -5,4 +5,4 @@ const ItemSchema = new mongoose.Schema({
   price: { type: Number, required: true }
 });
 
-module.exports = Item = mongoose.model('book', ItemSchema);
+module.exports = mongoose.model('item', ItemSchema);
