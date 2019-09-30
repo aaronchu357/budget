@@ -15,7 +15,6 @@ const connectdb = async () => {
         useFindAndModify: false
       }
     )
-
     console.log('MongoDB database connection established successfully')
   }
   catch (err) {
